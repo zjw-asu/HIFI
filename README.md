@@ -1,4 +1,4 @@
-# HIFI
+# HIFI music player
 
 
 This music player supports playback of 32-bit / 192 kHz audio tracks, drives high-impedance headphones, and delivers a high signal-to-noise ratio, high dynamic range, and high stereo separation.
