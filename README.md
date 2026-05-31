@@ -1,8 +1,29 @@
 # HIFI
-本音乐播放器支持播放32bit/192K的歌曲；支持高阻抗耳机；具有高信噪比、高动态和高立体分离度。我们采用的是自主设计的基于ARM+CPLD的播放主板，实现了192K，32bit的WAV歌曲格式、
-	192K,24bit的FLAC歌曲格式、96K,16bit的APE歌曲格式和44.1K，16bit的MP3，dsf歌曲格式的播放。DSD为硬解DSD。解码器为AK4495
-	代码由正点原子音乐播放器例程修改而来，主要添加了对AK4495的解码支持和硬解DSD的支持。同时移植了MP3，FLAC,APE歌曲播放的解码算法。
-					
+Here's the English translation:
+
+---
+
+This music player supports playback of 32-bit / 192 kHz audio tracks, drives high-impedance headphones, and delivers a high signal-to-noise ratio, high dynamic range, and high stereo separation.
+
+The system is built around our own custom-designed ARM + CPLD playback motherboard, which supports the following formats:
+
+- **WAV** — up to 192 kHz / 32-bit
+- **FLAC** — up to 192 kHz / 24-bit
+- **APE** — up to 96 kHz / 16-bit
+- **MP3** and **DSF** — 44.1 kHz / 16-bit
+- **DSD** — native hardware decoding
+
+The DAC is the **AK4495**.
+
+The firmware is adapted from the Alientek (正点原子) music-player reference example, with the following additions:
+
+- Decoding support for the AK4495 DAC
+- Native hardware DSD decoding
+- Ported decoding algorithms for MP3, FLAC, and APE playback
+
+---
+
+			
 	This music decoder supports 32bit/192K .wav,192K 24bit .FLAC ,96K 16bit .APE ,44.1K 16bit mp3, 2.4MHZ .DSF files.
 
 	If you have any questions please email jiaweizuo@whu.edu.cn thanks.
